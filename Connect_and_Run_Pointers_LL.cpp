@@ -3,7 +3,7 @@
       
         
         For example if you want tpo segregate odd nodes and even nodes in a linked list this is how you do it.
-        PS: 
+        Ps
         REVISE IT   !!!!!!!!!!!!!!!!!!!!!!!!!
         REVISE IT  !!!!!!!!!!!!!!!!!!!!!!!!!!
         VERY IMPORTANT !!!!!!!!!!!!!!!!!!!!!!
@@ -13,21 +13,21 @@
         
     Following is the class structure of the Node class:
 
-        class Node
-        {
-        public:
-	        int data;
-	        Node *next;
-	        Node(int data)
-	        {
-		        this->data = data;
-		        this->next = NULL;
-	        }
-        };
+       
         
   
 
 *****************************************************************/
+ class Node{
+    public:
+	    int data;
+	    Node *next;
+	    Node(int data)
+	    {
+	        this->data = data;
+	        this->next = NULL;
+	    }
+    };
 
 Node * segregateOddEven (Node * head){
     Node* start=NULL;
